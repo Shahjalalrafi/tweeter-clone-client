@@ -50,19 +50,11 @@ body {
 
 .tweet-list {
     height: 800px;
-    background: darkcyan;
     margin: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.tweet-container {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-color: antiquewhite;
-    margin: 20px;
-}
 
 .tweet-sidebar-container {
     background: black;
@@ -73,7 +65,9 @@ body {
     background: white;
     height: 500px;
     width: 350px;
-    margin: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    overflow: hidden;
 }
 
 .navigation {
